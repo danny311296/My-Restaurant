@@ -293,3 +293,33 @@ header
 .section-steps {
     background-color: #f4f4f4;
 }
+
+/* ------------------------------------------------ */
+/* CITIES */
+/* ------------------------------------------------ */
+
+.city img {
+    width: 100%;
+    height: auto;
+}
+
+.name {
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 110%;
+    margin-bottom: 20px;
+    padding: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
