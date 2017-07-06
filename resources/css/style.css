@@ -105,6 +105,34 @@ h2:after {
     margin-bottom: 10px;
 }
 
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #cf6d17;
+    font-size: 120%;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-right: 10px;
+
+}
+
+/* -------LINKS----- */
+
+a:link,a:visited {
+    color: #cf6d17;
+    text-decoration: none;  
+    border-bottom: 1px solid #cf6d17;
+    padding-bottom: 1px;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,a:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
+
 /* -------BUTTONS----- */
 
 
@@ -290,6 +318,10 @@ header
     margin-right: 10px;
 }
 
+.btn-app:link, .btn-app:visited {
+    border:0;
+}
+
 .section-steps {
     background-color: #f4f4f4;
 }
@@ -298,26 +330,15 @@ header
 /* CITIES */
 /* ------------------------------------------------ */
 
-.city img {
+.box img {
     width: 100%;
     height: auto;
+    margin-bottom: 15px;
 }
 
-.name {
-    text-transform: uppercase;
-    margin-top: 20px;
-    font-size: 110%;
-    margin-bottom: 20px;
-    padding: 1px;
+.city-feature {
+    margin-bottom: 5px;
 }
-
-
-
-
-
-
-
-
 
 
 
