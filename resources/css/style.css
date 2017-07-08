@@ -145,14 +145,14 @@ a:hover,a:active {
     transition: background-color 0.2s;
 }
 
-.btn-full, .btn-full:visited {
+.btn-full:link, .btn-full:visited {
     background-color: #e67e22;
     border: 1px solid #e67e22;
     color: #fff;
     margin-right: 15px;
 }
 
-.btn-ghost, .btn-ghost:visited {
+.btn-ghost:link, .btn-ghost:visited {
     border: 1px solid #e67e22;
     color: #e67e22;
 }
