@@ -1,0 +1,32 @@
+/* Big tablets to 1200px (widths smaller than 1140px row)*/
+@media only screen and (max-width: 1200px) { 
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row { padding: 0 2%; }
+}
+
+/* iPhone potrait made */
+/* iPhone landscape 1024px */
+/* Small tablets to big tablets */
+@media only screen and (max-width: 1023px) { 
+    body { font-size:  18px; }
+    section { padding: 60px 0; }
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+/* Width of iPad 768px. */
+/* Small phones to small tablets */
+@media only screen and (max-width: 767px) { 
+    
+}
+
+/* Small phones: from 0 to 480px  */
+@media only screen and (max-width: 480px) { 
+    
+}
